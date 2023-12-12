@@ -1,5 +1,17 @@
+#calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 30px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+#calculator > div {
+    margin: 5px 0;
+}
+
 #screen {
-    width: 300px;
     height: 50px;
     border-style: solid;
     border-radius: 5px;
@@ -7,17 +19,31 @@
 
 #btnArea {
     display: flex;
-}
-
-.numBtn {
-    width: 30%;
-}
-
-.operatorBtnContainer {
     flex-direction: column;
 }
 
-.operatorBtn {
-    padding: 0 10px;
+#btnArea > div {
+    margin: 5px 0;
+}
+
+.btnRow {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
     width: 100%;
 }
+
+button {
+    width: 25%;
+    box-sizing: border-box;
+    border-style: solid 1px;
+    border-radius: 5px;
+    background-color: #b8affd;
+    font-size: 2vh;
+    margin: 0 5px;
+}
+
+button:hover {
+    background-color: #9385fc;
+}
+
