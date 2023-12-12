@@ -1,0 +1,20 @@
+#screen {
+
+}
+
+#btnArea {
+    display: flex;
+}
+
+.numBtn {
+    width: 30%;
+}
+
+.operatorBtnContainer {
+    flex-direction: column;
+}
+
+.operatorBtn {
+    padding: 0 10px;
+    width: 100%;
+}
